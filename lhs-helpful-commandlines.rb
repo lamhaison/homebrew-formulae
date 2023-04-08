@@ -26,7 +26,7 @@ class LhsHelpfulCommandlines < Formula
     bin.install Dir["common"]
     bin.install Dir["services"]
     prefix.install "README.md"
-    prefix.install "LICENSE"
+    # prefix.install "LICENSE"
 
   end
 
