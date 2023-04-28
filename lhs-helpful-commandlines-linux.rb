@@ -16,7 +16,7 @@ class LhsHelpfulCommandlinesLinux < Formula
   def caveats
     <<~EOS
       Add these lines to ~/.bashrc or ~/.zshrc or ~/.bash_profile
-      source "$(which lhs-helpful-commandlines.sh)" "#{HOMEBREW_CELLAR}/lhs-helpful-commandlines-linux/$(brew info lhs-helpful-commandlines | head -1 | awk -F "stable " '{print $2}')" "${HOME}" "False"
+      source "$(which lhs-helpful-commandlines.sh)" "#{HOMEBREW_CELLAR}/lhs-helpful-commandlines-linux/$(brew info lhs-helpful-commandlines-linux | head -1 | awk -F "stable " '{print $2}')" "${HOME}" "False"
     EOS
   end
 

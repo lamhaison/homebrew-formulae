@@ -15,7 +15,7 @@ class AwsCliUtilsLinux < Formula
   def caveats
     <<~EOS
       Add these lines to ~/.bashrc or ~/.zshrc or ~/.bash_profile
-      source "$(which aws-cli-utils.sh)" "#{HOMEBREW_CELLAR}/aws-cli-utils-linux/$(brew info aws-cli-utils | head -1 | awk -F "stable " '{print $2}')" "${HOME}" "False"
+      source "$(which aws-cli-utils.sh)" "#{HOMEBREW_CELLAR}/aws-cli-utils-linux/$(brew info aws-cli-utils-linux | head -1 | awk -F "stable " '{print $2}')" "${HOME}" "False"
     EOS
   end
 
