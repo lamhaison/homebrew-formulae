@@ -12,6 +12,8 @@ class LhsHelpfulCommandlinesLinux < Formula
   depends_on "peco"
   depends_on "gh"
   depends_on "glab"
+  depends_on "tree"
+  depends_on "curl"
 
   def caveats
     <<~EOS
