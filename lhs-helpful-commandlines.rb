@@ -4,8 +4,8 @@
 class LhsHelpfulCommandlines < Formula
   desc ""
   homepage "https://github.com/lamhaison/helpful-commandlines"
-  url "https://github.com/lamhaison/helpful-commandlines/archive/refs/tags/v1.3.0.tar.gz"
-  sha256 "c87ebda0ac2da5acf0d84b2c00b58df9d498cdf38134b7f5ee21b511e5527305"
+  url "https://github.com/lamhaison/helpful-commandlines/archive/refs/tags/v1.4.0.tar.gz"
+  sha256 "91bf7eafd839c9c770deab5226e6655a2b097d0dd2d3666a6221fed0c253ad86"
   license "Apache-2.0"
 
   depends_on "jq"
