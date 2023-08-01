@@ -21,6 +21,9 @@ brew install lamhaison/formulae/aws-cli-utils-linux
 ```
 # For linux
 brew install lamhaison/formulae/assume-role-linux
+
+# For Macos Apple Chip
+brew install lamhaison/formulae/assume-role-macos-apple-chip
 ```
 
 
