@@ -1,4 +1,4 @@
-class AssumeRoleMacosApplechip < Formula
+class AssumeRoleMacosAppleChip < Formula
   desc "Easily assume AWS roles in your terminal on MacOS Apple Chip(M1, M2)"
   homepage "https://github.com/lamhaison/assume-role"
   url "https://github.com/lamhaison/assume-role/releases/download/1.0.0/assume-role-macos-m1"
