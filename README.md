@@ -30,7 +30,7 @@ brew install lamhaison/formulae/assume-role-macos-apple-chip
 ### Install the tool lhs-helpful-commandlines
 ```
 # For macos
-brew install lhs-helpful-commandlines
+brew install lamhaison/formulae/lhs-helpful-commandlines
 # For linux
-brew install lhs-helpful-commandlines-linux
+brew install lamhaison/formulae/lhs-helpful-commandlines-linux
 ```

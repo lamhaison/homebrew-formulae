@@ -4,8 +4,8 @@
 class LhsHelpfulCommandlines < Formula
   desc "lhs helpful-commandlines for macos"
   homepage "https://github.com/lamhaison/helpful-commandlines"
-  url "https://github.com/lamhaison/helpful-commandlines/archive/refs/tags/v1.4.0.tar.gz"
-  sha256 "91bf7eafd839c9c770deab5226e6655a2b097d0dd2d3666a6221fed0c253ad86"
+  url "https://github.com/lamhaison/helpful-commandlines/archive/refs/tags/v1.5.0.tar.gz"
+  sha256 "a7983a9eff6e823294aaf8ca8a73f1a096755dbeb90c060cc8ef43170c64e7e3"
   license "Apache-2.0"
 
   depends_on "jq"
@@ -18,7 +18,7 @@ class LhsHelpfulCommandlines < Formula
   def caveats
     <<~EOS
       Add these lines to ~/.bashrc or ~/.zshrc or ~/.bash_profile
-      source "$(which lhs-helpful-commandlines.sh)" "#{HOMEBREW_CELLAR}/lhs-helpful-commandlines/$(brew info lhs-helpful-commandlines | head -1 | awk -F "stable " '{print $2}')" "${HOME}" "True"
+      source "$(which lhs-helpful-commandlines.sh)" "#{HOMEBREW_CELLAR}/lhs-helpful-commandlines/$(brew info lhs-helpful-commandlines | head -1 | awk -F "stable " '{print $2}')" "True" "True"
     EOS
   end
 
