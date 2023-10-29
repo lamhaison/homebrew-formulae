@@ -10,7 +10,6 @@ class AwsCliUtils < Formula
 
   depends_on "jq"
   depends_on "peco"
-  depends_on "remind101/formulae/assume-role"
 
   def caveats
     <<~EOS
