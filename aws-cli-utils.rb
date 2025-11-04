@@ -1,7 +1,4 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class AwsCliUtils < Formula
+class AwsCliUtilsAT114 < Formula
   desc "aws-cli-utils"
   homepage "https://github.com/lamhaison/aws-cli-utils"
   url "https://github.com/lamhaison/aws-cli-utils/archive/refs/tags/v1.14.0.tar.gz"
@@ -13,22 +10,17 @@ class AwsCliUtils < Formula
 
   def caveats
     <<~EOS
-      Add these lines to ~/.bashrc or ~/.zshrc or ~/.bash_profile
-      source "$(which aws-cli-utils.sh)" "#{HOMEBREW_CELLAR}/aws-cli-utils/$(brew info aws-cli-utils | head -1 | awk -F "stable " '{print $2}')/bin" "${HOME}" "True"
+      Add these lines to ~/.bashrc or ~/.zshrc or ~/.bash_profile:
+      source "$(which aws-cli-utils.sh)" "#{HOMEBREW_CELLAR}/aws-cli-utils@1.14/$(brew info aws-cli-utils@1.14 | head -1 | awk -F "stable " '{print $2}')/bin" "${HOME}" "True"
     EOS
   end
 
   def install
     system "make", "install"
     cp "main.sh", "aws-cli-utils.sh"
-    bin.install 'aws-cli-utils.sh'
+    bin.install "aws-cli-utils.sh"
     bin.install Dir["common"]
     bin.install Dir["services"]
-    prefix.install "README.md"
-    prefix.install "LICENSE"
-
+    prefix.install "README.md", "LICENSE"
   end
-
-
-
 end
