@@ -1,8 +1,8 @@
 class AwsCliUtils < Formula
   desc "aws-cli-utils"
   homepage "https://github.com/lamhaison/aws-cli-utils"
-  url "https://github.com/lamhaison/aws-cli-utils/archive/refs/tags/v1.14.0.tar.gz"
-  sha256 "c8b3c62e853fd007604fcf4a5efd348d5181c9971c1943163e50620da0158ca7"
+  url "https://github.com/lamhaison/aws-cli-utils/archive/refs/tags/v1.14.1.tar.gz"
+  sha256 "0c9f2a8175d2e5ef9b0a272117b509e87594039e6e5ea51e85c8914990d7afa5"
   license "Apache-2.0"
 
   depends_on "jq"
