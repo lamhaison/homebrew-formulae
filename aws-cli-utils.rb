@@ -1,4 +1,4 @@
-class AwsCliUtilsAT114 < Formula
+class AwsCliUtils < Formula
   desc "aws-cli-utils"
   homepage "https://github.com/lamhaison/aws-cli-utils"
   url "https://github.com/lamhaison/aws-cli-utils/archive/refs/tags/v1.14.0.tar.gz"
